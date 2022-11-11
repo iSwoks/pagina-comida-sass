@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/ico" href="../image/logo.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content = "Agustin rodriguez"/>
+    <meta name="description" content = "pagina oficial de la pizzeria: pizzar"/>
+    <meta name="keywrods" content = "pizza,pizzeria,comida"/>
+    <title>Pizzar - las mejores pizzas</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/fontawesome/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+    "
+    />
+  </head>
+  <!---------------------------------------------------------Barra navegacion -------------------------------------------------------->
+   <header>
+        <div class="container-fluid">
+            <div class="navb-logo">
+                <img src="/image/logo.png" alt="Logo">
+            </div>
+            <div class="navb-items d-none d-xl-flex">
+                <div class="item">
+                    <a href="../index.html">Home</a>
+                </div>
+                <div class="item">
+                    <a href="about.html">Sobre nosotros</a>
+                </div>
+                <div class="item">
+                    <a href="galeria.html">Galeria</a>
+                </div>
+                <div class="item">
+                    <a href="reviews.html">Reviews</a>
+                </div>
+                <div class="item">
+                    <a href="menu.html">Menu</a>
+                </div>
+                <div class="item">
+                    <a href="equipo.html">Equipo</a>
+                </div>
+                <div class="item-button">
+                    <a href="pedido.html" type="button">Pedir ahora!</a>
+                </div>
+            </div>
+           <!-- boton menu hamburguesa -->
+            <div class="mobile-toggler d-lg-none">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+            <!-- Menu hamburguesa -->
+            <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <img src="/image/logo.png" alt="Logo">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="modal-line">
+                                <i class="fa-solid fa-house"></i><a href="../index.html">Home</a>
+                            </div>
+                            <div class="modal-line">
+                                <i class="fa-solid fa-address-card"></i><a href="about.html">Sobre nosotros</a>
+                            </div>
+                            <div class="modal-line">
+                                <i class="fa-solid fa-image"></i><a href="galeria.html">Galeria</a>
+                            </div>
+                            <div class="modal-line">
+                                <i class="fa-solid fa-star"></i><a href="reviews.html">Reviews</a>
+                            </div>
+                            <div class="modal-line">
+                                <i class="fa-solid fa-pizza-slice"></i><a href="menu.html">Menu</a>
+                            </div>
+                            <div class="modal-line">
+                                <i class="fa-solid fa-people-group"></i>><a href="equipo.html">Equipo</a>
+                            </div>
+                            <a href="pedido.html" class="navb-button" type="button">Pedir ahora</a>
+                        </div>
+                        <div class="mobile-modal-footer">
+                            <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a target="_blank" href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!---------------------------------------------------------Menu comida -------------------------------------------------------->
+    <div class="menu">
+      <h1>Nuestro<span>Menu</span></h1>
+      <div class="menu_box">
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="../image/pizzanapo.jpg" />
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>pizza napolitana</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              assumenda voluptates
+            </p>
+            <h3>$1.860</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <a href="#" class="menu_btn">Pedir ahora</a>
+          </div>
+        </div>
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="../image/pizzamussa.jpg" />
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Pizza mussarela</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              assumenda voluptates
+            </p>
+            <h3>$1.860</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Pedir ahora</a>
+          </div>
+        </div>
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="../image/pizzacalabresa.jpg" />
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Pizza calabresa</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              assumenda voluptates
+            </p>
+            <h3>$1.860</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <a href="#" class="menu_btn">Pedir ahora</a>
+          </div>
+        </div>
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="../image/pizzaconjamon.jpg" />
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Pizza jamon</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              assumenda voluptates
+            </p>
+            <h3>$1.860</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Pedir ahora</a>
+          </div>
+        </div>
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="../image/pizzafugazzeta.png" />
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Pizza fugazzeta</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              assumenda voluptates
+            </p>
+            <h3>$1.860</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Pedir ahora</a>
+          </div>
+        </div>
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="../image/pizzaroquefort.jpg" />
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Pizza roquefort</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              assumenda voluptates
+            </p>
+            <h3>$1.860</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <a href="#" class="menu_btn">Pedir ahora</a>
+          </div>
+        </div>
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="../image/pizzasalchicha.jpg" />
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Pizza salchicha</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              assumenda voluptates
+            </p>
+            <h3>$1.860</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Pedir ahora</a>
+          </div>
+        </div>
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="../image/pizzaprimavera.jpg" />
+          </div>
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <div class="menu_info">
+            <h2>Pizza privamera</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              assumenda voluptates
+            </p>
+            <h3>$1.860</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <a href="#" class="menu_btn">Pedir ahora</a>
+          </div>
+        </div>
+      </div>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
+    "></script>
+  </body>
+</html>

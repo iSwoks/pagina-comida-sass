@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 130px;
+}
+.main .men_text h1 {
+  font-size: 60px;
+  position: relative;
+  top: -100px;
+  left: 20px;
+}
+.main .men_text h1 span {
+  margin-left: 15px;
+  color: #ff6600;
+  font-family: mv boli;
+  line-height: 22px;
+  font-size: 70px;
+}
+.main .main_image img {
+  width: 800px;
+  position: relative;
+  left: 80px;
+  border-radius: 60%;
+}

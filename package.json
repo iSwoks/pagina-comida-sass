@@ -1,0 +1,23 @@
+{
+  "name": "pagina-comida-main",
+  "version": "1.0.0",
+  "description": "sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss styles/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iSwoks/Pagina-comida.git"
+  },
+  "author": "agustin rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iSwoks/Pagina-comida/issues"
+  },
+  "homepage": "https://github.com/iSwoks/Pagina-comida#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
